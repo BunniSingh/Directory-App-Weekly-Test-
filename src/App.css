@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar  */
+
+.nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+  background-color: rgb(82, 82, 247);
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  
+  a{
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    &:hover{
+      color: #ff9074;
+    }
+
+    .icon{
+      font-size: 2rem;
+      transition: transform 0.3s;
+    }
+  }
+}
+
+/* TAble  */
+
+.table-container{
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  h1{
+    padding: 1rem;
+  }
+}
+.table {
+  font-family: arial, sans-serif;
+  border-collapse:collapse;
+  width: 100%;
+}
+.table td, th {
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  /* font-size: small; */
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* form */
+
+h2{
+  padding: 1rem;
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input[type="text"], input[type="email"], input[type="number"],[type="date"]{
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  border-radius: 5px;
+
+  &:hover{
+    background-color: #45a049;
+  } 
+
+}
